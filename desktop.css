@@ -1,0 +1,32 @@
+nav li{
+  display: inline;
+}
+
+#logo-header{
+  height: 7vh;
+}
+#phone{
+  display: inline;
+  margin-left: 1.5vw;
+  border: 3px solid red;
+  background-color: red;
+  border-radius: .025vh;
+  border-width: .25vw;
+  width: 5vw;
+  color: white;
+  font-size: 2vh;
+  border-style: outset;
+  font-size: 2vh;
+  text-decoration: none;
+}
+.nav-items{
+  margin-left: 1.5vw;
+  border: 3px solid red;
+  background-color: red;
+  border-radius: .025vh;
+  border-width: .25vw;
+  width: 5vw;
+  color: white;
+  font-size: 2vh;
+  border-style: outset;
+}
