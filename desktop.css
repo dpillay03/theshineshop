@@ -1,32 +1,79 @@
+nav{
+  border-bottom: 3px solid red;
+  border-style:  outset;
+  z-index: 1;
+  width: 100%;
+}
 nav li{
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #logo-header{
   height: 7vh;
 }
 #phone{
-  display: inline;
+  display: inline-block;
   margin-left: 1.5vw;
-  border: 3px solid red;
-  background-color: red;
-  border-radius: .025vh;
-  border-width: .25vw;
-  width: 5vw;
-  color: white;
-  font-size: 2vh;
-  border-style: outset;
-  font-size: 2vh;
+  font-size: 1.75vh;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid;
+  border-style: ridge;
+  border-radius: 1px;
+  background-color: red;
+  color: white;
+
 }
 .nav-items{
-  margin-left: 1.5vw;
-  border: 3px solid red;
-  background-color: red;
-  border-radius: .025vh;
-  border-width: .25vw;
-  width: 5vw;
-  color: white;
   font-size: 2vh;
+  display: inline-block;
+  margin-left:2vw;
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+}
+.home-wrapper{
+  position: relative;
+  background-color: black;
+  z-index: 1;
+}
+#interior{
+  height: 80vh;
+  display: block;
+  margin: 0 auto;
+}
+#home-txt{
+  position: absolute;
+  color: white;
+  font-size: 7vh;
+  text-align: center;
+  top: 10vh;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+
+}
+.book-wrapper{
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 3vh;
+  width: 100%;
+  z-index: 2;
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 2vh;
+}
+#home-book{
+  text-shadow: 0 0 10px #FF0000;
+}
+#home-phone{
+  color: red;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid red;
   border-style: outset;
+  background-color: white;
+  padding: 1vw;
 }
