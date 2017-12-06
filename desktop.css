@@ -100,7 +100,7 @@ nav li{
   border: 2px solid red;
   border-style: outset;
   background-color: white;
-  padding: .5vh 3.5vw;
+  padding: .8vh 2.6vw;
 }
 
 .about-wrapper{
@@ -111,13 +111,13 @@ nav li{
   padding-top: 2vh;
   border-top: 3px solid red;
   border-style: groove;
-
 }
 .about-content{
   width: 50%;
   display: block;
   margin: 0 auto;
   border: 5px solid #808080;
+  border-bottom: none;
   border-style: inset;
   margin-bottom: 5vh;
   margin-top: 5vh;
@@ -138,6 +138,7 @@ nav li{
   font-family: 'Titillium Web', sans-serif;
   width: 90%;
   margin: 0 auto;
+  padding-top: 4vh;
 }
 #garret{
   font-family: 'Titillium Web', sans-serif;
@@ -146,9 +147,71 @@ nav li{
 }
 #owner{
   font-family: 'Open Sans', sans-serif;
-
   color: red;
   font-size: 1vw;
   font-weight: bolder;
   text-decoration: underline;:
+}
+.pricing-wrapper{
+  width: 100%;
+  background-color: #1C2833;
+  border-top: 3px solid red;
+  border-style: groove;
+
+}
+#pricing{
+  font-family: 'Orbitron', sans-serif;
+  width: 100%;
+  padding: 2vh;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4vh;
+  color: red;
+  text-shadow: 2px 2px 10px black;
+}
+.row{
+  width 100%;
+  display: block;
+}
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+.column{
+    display: inline-block;
+    width: 20%;
+    height: 35vh;
+    margin: 2.2vw;
+    border: 3px solid #A6ACAF;
+    border-style: outset;
+    text-align: center;
+    background-color: black;
+}
+.services{
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 2px 2px 10px black;
+  color: white;
+  font-size: 2vh;
+  display: inline-block;
+}
+.detail{
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 2px 2px 10px black;
+  color: red;
+  display: inline;
+  font-size: 2vh;
+}
+.info{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  top: 0px;
+}
+.price{
+  font-family: 'Titillium Web', sans-serif;
+  text-shadow: 2px 2px 10px black;
+  color: red;
+  font-size: 3vh;
 }
