@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Monda|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Righteous|Squada+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Orbitron|Titillium+Web" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <header>
       <nav>
-          <li><img id="logo-header" src="img/logo.png"></li>
+          <li><img id="logo-header" src="img/shineshop.png"></li>
           <li><a id="phone" href="tel:+14252207130">Call: (425) 220-7130</a></li>
           <li class="nav-items">Home</li>
           <li class="nav-items">About</li>
@@ -24,21 +25,25 @@
 
     <main>
       <div class="home-wrapper">
+        <div id="home-background"
         <img id="interior" src="img/interior.jpg"/>
+        </div>
           <h2 id="home-txt">Precision Auto Details<br>At Your Convinence </h2>
           <div class="book-wrapper">
             <h3 id="home-book">Book Appointment Now!</h3>
             <a id="home-phone" href="tel:+14252207130">(425) 220-7130</a><br>
             <a id="home-email" href="mailto:theshineshop@hotmail.com">Email </a><br>
           </div>
-      </div>
+        </div>
 
       <div class="about-wrapper">
         <div class="about-content">
           <h2 id="about">Who Are We?</h2>
           <p id="about-text">Established in 2005, the Shine Shop is an automotive detailing business serving the greater Seattle area and beyond. Our goal is to provide exceptional details to our customers from the comfort of their own homes or business. That's right, we come to you! With over a decade of experience, we have detailed personal vehicles, commercial vehicles, fleet vehicles for law enforcement and firefighting agencies, RV's and Semi Trucks, boats and everything in between. Excellence in our craft in both detailing vehicles and exceeding customer needs is what we strive for. Feel free to contact us! We look forward to hearing from you soon.</P>
           <h4 id="garret">-Garrett Warhol</h4>
-          <p id="owner">Owner of The Shine Shop</p>
+          <p id="owner">Founder and CEO</p>
+          <img id="shine-shop"
+          src="img/shineshop.png"/>
         </div>
       </div>
 
@@ -89,12 +94,39 @@
       </div>
 
       <div class="portfolio-wrapper">
+        <h3 id="portfolio-header">Portfolio</h3>
+        <section class="demo">
+          <img class="prev" src="img/left.png"/>
+          <img class="next" src="img/right.png"/>
+            <div class="container">
+              <div style="display: inline-block;">
+                <img src="img/ShinVan.jpg"/>
+              </div>
+              <div>
+                <img src="img/Caddy.jpg"/>
+              </div>
+              <div>
+                <img src="img/RV.jpg"/>
+              </div>
+              <div>
+                <img src="img/PoliceCar.jpg"/>
+              </div>
+              <div>
+                <img src="img/Truck.jpg"/>
+              </div>
+              <div>
+                <img src="img/Vete.jpg"/>
+              </div>
+            </div>
+          </section>
       </div>
     </main>
 
     <footer>
     </footer>
 
+  <script src="slider.js"></script>
 
+  </script>
   </body>
 </html>
