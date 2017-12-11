@@ -156,78 +156,109 @@ nav li{
   font-family: 'Open Sans', sans-serif;
   color: red;
   font-size: .70vw;
-
+}
+#pricing-header{
+  font-family: 'Orbitron', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2vh;
+  vertical-align: middle;
+  font-size: 4vh;
+  color: red;
+  text-shadow: 2px 2px 10px white;
+  text-align: center;
 }
 .pricing-wrapper{
   width: 100%;
+  text-align: center;
   background-color: #1C2833;
+  padding-top: 3vh;
   border-top: 3px solid red;
   border-style: groove;
+}
+#pricing-table{
+  background: transparent;
+  padding: 15px;
+}
 
-}
-#pricing{
-  font-family: 'Orbitron', sans-serif;
-  width: 100%;
-  padding: 2vh;
-  vertical-align: middle;
+.table-column{
+  border: 1px solid #444d58;
   text-align: center;
-  font-size: 4vh;
-  color: red;
-  text-shadow: 2px 2px 10px black;
-}
-.row{
-  width 100%;
-  display: block;
-}
-.row:after {
-    content: " ";
-    display: table;
-    clear: both;
-    margin: 0 auto;
-    text-align: center;
-}
-.column{
-    display: inline-block;
-    width: 20%;
-    height: 35vh;
-    margin: 2.2vw;
-    border: 3px solid #A6ACAF;
-    border-style: outset;
-    text-align: center;
-    background-color: black;
-}
-.services{
-  font-family: 'Titillium Web', sans-serif;
-  text-shadow: 2px 2px 10px black;
-  color: white;
-  font-size: 2vh;
-  display: inline-block;
-}
-.detail{
-  font-family: 'Titillium Web', sans-serif;
-  text-shadow: 2px 2px 10px black;
-  color: red;
-  display: inline;
-  font-size: 2vh;
-}
-.info{
-  color: white;
+  padding: 0 30px;
+  max-width: 320px;
+  margin: 0 auto 30px auto;
+  border-radius: 10px;
+  background: rgba(151,159,172,1);
   font-family: 'Open Sans', sans-serif;
-  top: 0px;
 }
-.price{
-  font-family: 'Titillium Web', sans-serif;
-  text-shadow: 2px 2px 10px black;
-  color: red;
-  font-size: 3vh;
+
+.table-column .header{
+  border-bottom: 1px solid #556572;
+  background: rgba(250,250,250,1);
+  margin: 0 -30px;
+  color: #000;
+  margin-bottom: 10px;
+  padding-top: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
+
+.table-column .header h3{
+  margin: 0 auto;
+  border-bottom: 1px solid #556572;
+  width: 60%;
+  padding: 10px 0;
+}
+
+.table-column .header span.price{
+  font-size: 20px;
+  font-weight: 400
+}
+
+.table-body p.description{
+  color: #fff;
+  border-bottom: 0px solid rgb(120,120,120);
+  padding-bottom: 5px;
+  font-weight: 100
+}
+
+.table-body p.description:last-child{
+  border-bottom: 0px;
+}
+
+.table-column .sign-up-button{
+  margin: 15px 0
+}
+
+.table-column .btn{
+  width: 50%;
+  background: transparent;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 0;
+  margin-bottom: 30px
+}
+
+.table-body{
+  margin-top: 40px;
+}
+
+.annual p{
+  text-align:center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif
+}
+
+
 .portfolio-wrapper{
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   background-color: black;
   border-top: 3px solid red;
   border-style: groove;
-
+  overflow: hidden;
+ position: static;
 }
 #portfolio-header{
   font-family: 'Orbitron', sans-serif;
@@ -241,37 +272,54 @@ nav li{
 }
 
 .container {
-  max-width: 500px;
-  background-color: #4B4B4B;
   margin: 0 auto;
   text-align: center;
   position: relative;
 }
 .container div {
   background-color: white;
-  width: 100%;
   display: inline-block;
   display: none;
+  border: 3px solid white;
+  border-style: outset;
+  background-color: black;
+
 }
 .container img {
-  width: 100%;
+  image-resolution: from-image;
   z-index: 5;
-}
-
-button {
-  position: absolute;
 }
 
 .next {
   height: 15vh;
   position: relative;
-  right: 20vw;
+  right: 10vw;
+  top: 13vh;
   float: right;
 }
 
 .prev {
   height: 15vh;
   position: relative;
-  left: 20vw;;
+  left: 10vw;
+  top: 13vh;
   float: left;
+}
+
+.contact-wrapper{
+  width: 100%;
+  height: 60vh;
+  background-color: #dcdee2;
+  border-top: 3px solid red;
+  border-style: groove;
+}
+#contact-header{
+  font-family: 'Orbitron', sans-serif;
+  width: 100%;
+  padding: 2vh;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4vh;
+  color: red;
+  text-shadow: 2px 2px 10px black;
 }
