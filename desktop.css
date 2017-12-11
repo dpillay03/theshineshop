@@ -181,84 +181,12 @@ nav li{
   padding: 15px;
 }
 
-.table-column{
-  border: 1px solid #444d58;
-  text-align: center;
-  padding: 0 30px;
-  max-width: 320px;
-  margin: 0 auto 30px auto;
-  border-radius: 10px;
-  background: rgba(151,159,172,1);
-  font-family: 'Open Sans', sans-serif;
-}
-
-.table-column .header{
-  border-bottom: 1px solid #556572;
-  background: rgba(250,250,250,1);
-  margin: 0 -30px;
-  color: #000;
-  margin-bottom: 10px;
-  padding-top: 0;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.table-column .header h3{
-  margin: 0 auto;
-  border-bottom: 1px solid #556572;
-  width: 60%;
-  padding: 10px 0;
-}
-
-.table-column .header span.price{
-  font-size: 20px;
-  font-weight: 400
-}
-
-.table-body p.description{
-  color: #fff;
-  border-bottom: 0px solid rgb(120,120,120);
-  padding-bottom: 5px;
-  font-weight: 100
-}
-
-.table-body p.description:last-child{
-  border-bottom: 0px;
-}
-
-.table-column .sign-up-button{
-  margin: 15px 0
-}
-
-.table-column .btn{
-  width: 50%;
-  background: transparent;
-  color: #fff;
-  font-weight: 300;
-  border-radius: 0;
-  margin-bottom: 30px
-}
-
-.table-body{
-  margin-top: 40px;
-}
-
-.annual p{
-  text-align:center;
-  margin-bottom: 15px;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif
-}
-
-
 .portfolio-wrapper{
   width: 100%;
   height: 100vh;
   background-color: black;
   border-top: 3px solid red;
   border-style: groove;
-  overflow: hidden;
- position: static;
 }
 #portfolio-header{
   font-family: 'Orbitron', sans-serif;
@@ -286,26 +214,26 @@ nav li{
 
 }
 .container img {
-  image-resolution: from-image;
+  max-width: 750px;
+  max-height: 555px;
   z-index: 5;
 }
+#arrow{
+  display: flex;
+  
 
-.next {
-  height: 15vh;
-  position: relative;
-  right: 10vw;
-  top: 13vh;
-  float: right;
+
 }
-
-.prev {
-  height: 15vh;
-  position: relative;
-  left: 10vw;
-  top: 13vh;
-  float: left;
+.forward{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
-
+.back{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
 .contact-wrapper{
   width: 100%;
   height: 60vh;

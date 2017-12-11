@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 var currentIndex = 0,
   items = $('.container div'),
   itemAmt = items.length;
@@ -14,9 +15,9 @@ var autoSlide = setInterval(function() {
     currentIndex = 0;
   }
   cycleItems();
-}, 10000);
+}, 100000);
 
-$('.next').click(function() {
+$('.forward').click(function() {
   clearInterval(autoSlide);
   currentIndex += 1;
   if (currentIndex > itemAmt - 1) {
@@ -25,11 +26,12 @@ $('.next').click(function() {
   cycleItems();
 });
 
-$('.prev').click(function() {
+$('.back').click(function() {
   clearInterval(autoSlide);
   currentIndex -= 1;
   if (currentIndex < 0) {
     currentIndex = itemAmt - 1;
   }
   cycleItems();
+});
 });
