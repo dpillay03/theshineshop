@@ -1,4 +1,4 @@
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 620px) {
   html{
     width: auto;
   }
@@ -6,35 +6,45 @@
     width: auto;
   }
   .wallpaper{
-    width: auto;%
+    width: auto;
   }
   nav{
-    width: auto%;
-    display: block;
-  }
-  nav #logo-header{
-    height: 13vh;
-    display: block;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 50;
+    width: 100%;
+    border-bottom: 5.5px solid red;
+    border-style: outset;
+    text-align: center;
   }
 
-  nav .nav-items{
+  nav li{
+    width: 100%;
     display: inline;
-    word-spacing: 100%;
+    vertical-align: middle;
     text-align: center;
+  }
+
+.nav-items{
+    display: inline;
+    text-align: center;
+    word-spacing: 100%;
+    margin: 2vw;
+    font-size: 1.7vh;
     font-weight: bolder;
-    display: none;
+    text-decoration: none;
+    list-style: none;
   }
-  nav #phone{
-    display: inline
+
+ #phone{
+   display: none;
   }
-  nav #menu{
-    display: block;
-    height: 8vh;
-    margin-left: 6vw;
-    right: 0;
-  }
+
   #logo-header{
-    height: 7vh;
+    height: 10vh;
+    display: block;
+    margin: 0 auto;
   }
   .home-wrapper{
     margin-top: 9vh;
@@ -42,7 +52,7 @@
     height: 100vh;
     border-bottom: 3px solid red;
     border-style: groove;
-    background-image: url("img/interior.jpg");
+    background-image: url("/img/interior.jpg");
     background-repeat: no-repeat;
   }
   #home-txt{
@@ -85,9 +95,40 @@
     border-style: inset;
     margin-bottom: 3vh;
     margin-top: 3vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/high-resolution-scrap-metal-background.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/high-resolution-scrap-metal-background.jpg");
     background-size: cover;
     text-align: center;
+  }
+  #home-phone{
+    color: red;
+    text-decoration: none;
+    font-family: 'Open Sans' sans-serif;
+    border: 2px solid red;
+    border-style: outset;
+    background-color: white;
+    padding: .5vw;
+
+  }
+  #home-email{
+    position: relative;
+    bottom: -3vh;
+    color: red;
+    text-decoration: none;
+    font-family: 'Open Sans' sans-serif;
+    border: 2px solid red;
+    border-style: outset;
+    background-color: white;
+    padding: .8vh 2.6vw;
+  }
+  .homesocial{
+    background:rgba(255,255,255, 0.6);
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .homesocial img{
+    text-align: center;
+    margin: 1.5vw;
   }
   #garret{
     font-family: 'Titillium Web', sans-serif;

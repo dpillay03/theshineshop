@@ -54,7 +54,7 @@ display: none;
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  background-image: url(img/interior.jpg);
+  background-image: url("/img/interior.jpg");
   background-size: cover;
   border-bottom: 3px solid red;
   border-style: groove;
@@ -116,7 +116,7 @@ display: none;
 .homesocial{
   background:rgba(255,255,255, 0.6);
   text-align: center;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 .homesocial img{
@@ -124,7 +124,7 @@ display: none;
   margin: 1.5vw;
 }
 .wallpaper{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("img/black-diamond-plate.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/img/black-diamond-plate.jpg");
   background-size: cover;:
 }
 
@@ -137,7 +137,7 @@ display: none;
   border-style: inset;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/high-resolution-scrap-metal-background.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/high-resolution-scrap-metal-background.jpg");
   background-size: cover;
   text-align: center;
 }
@@ -205,8 +205,8 @@ display: none;
   background-color: black;
 }
 .container img {
-  max-width: 750px;
-  max-height: 555px;
+  max-width: 500px;
+  max-height: 400px;
   z-index: 5
 }
 #arrow{
@@ -239,12 +239,14 @@ display: none;
   background: transparent;
   padding: 15px;
 }
+.boxes{
+  text-align: center;
+}
 .b1, .b2, .b3, .b4{
     display:inline-block;
     position: static;
-    margin: 2vw;
+    margin: 1vw;
     width: 20%;
-    text-align: center;
     height: 100%;
     background-color: lightgrey;
     overflow: hidden;
