@@ -1,3 +1,203 @@
-only screen and (min-width: 615px){
-6
+@media only screen and (max-width: 650px) {
+  html{
+    width: auto;
+  }
+  main{
+    width: auto;
+  }
+  .wallpaper{
+    width: auto;%
+  }
+  nav{
+    width: auto%;
+    display: block;
+  }
+  nav #logo-header{
+    height: 13vh;
+    display: block;
+  }
+
+  nav .nav-items{
+    display: inline;
+    word-spacing: 100%;
+    text-align: center;
+    font-weight: bolder;
+    display: none;
+  }
+  nav #phone{
+    display: inline
+  }
+  nav #menu{
+    display: block;
+    height: 8vh;
+    margin-left: 6vw;
+    right: 0;
+  }
+  #logo-header{
+    height: 7vh;
+  }
+  .home-wrapper{
+    margin-top: 9vh;
+    width: auto;
+    height: 100vh;
+    border-bottom: 3px solid red;
+    border-style: groove;
+    background-image: url("img/interior.jpg");
+    background-repeat: no-repeat;
+  }
+  #home-txt{
+    position: absolute;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+    top: 20vh;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px red;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+  }
+  .book-wrapper{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 20vh;
+    width: 100%;
+    z-index: 2;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 2vh;
+  }
+  #home-book{
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  .homesocial{
+    background:rgba(255,255,255, 0.6);
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .about-content{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #808080;
+    border-bottom: none;
+    border-style: inset;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/high-resolution-scrap-metal-background.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+  #garret{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4vw;
+    font-style: italic;
+    text-align: center;
+    color: red;
+  }
+  #owner{
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    font-size: 2vw;
+  }
+  #shine-shop{
+    width: 50vw;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-top: 2vh;
+  }
+  #pricing-header{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10vw;
+    width: 100%;
+    text-shadow: 2px 2px 10px red;
+    text-align: center;
+  }
+  .pricing-wrapper{
+    width: 100%;
+    text-align: center;
+    background-color: #1C2833;
+    padding-top: 2vh;
+    border-style: groove;
+    margin: 0 auto;
+    display: block;
+  }
+  .b1, .b2, .b3, .b4{
+      display: block;
+      position: static;
+      margin: 0 auto;
+      margin-bottom: 3vh;
+      width: 90%;
+      text-align: center;
+      height: 100%;
+      background-color: lightgrey;
+      overflow: hidden;
+      border: 5px solid #808080;
+      border-style: outset;
+      background-color: black;
+      vertical-align: top;
+  }
+  .service, .detail{
+    width: 100%;
+    display: inline;
+    font-size: 7vw;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  .etc{
+    color: white;
+    font-size: 3vw;
+    margin: 1vw;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .price{
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8vw;
+    background:rgba(255,255,255, 1);
+    width: 100%;
+  }
+  #portfolio-header{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10vw;
+    width: 100%;
+    text-shadow: 2px 2px 10px red;
+    text-align: center;
+  }
+  .container {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5vh;
+  }
+  .container div {
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    display: none;
+    border: 3px solid white;
+    border-style: outset;
+    background-color: black;
+  }
+  .container img {
+    max-width: 100%;
+    max-height: 355px;
+    z-index: 5
+  }
+  #arrow{
+    display: flex;
+  }
+  .forward, .back{
+    text-align:  inherit;
+    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    bottom: 40vh;
+  }
 }

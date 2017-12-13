@@ -18,6 +18,9 @@ nav li{
   display: inline-block;
   vertical-align: middle;
 }
+nav #menu{
+display: none;
+}
 
 #logo-header{
   height: 7vh;
@@ -57,7 +60,7 @@ nav li{
   border-style: groove;
 }
 #interior{
-  height:80vh;
+  height: auto;
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -79,7 +82,7 @@ nav li{
   display: block;
   margin: 0 auto;
   text-align: center;
-  bottom: 10vh;
+  bottom: 5%;
   width: 100%;
   z-index: 2;
   color: white;
@@ -112,9 +115,8 @@ nav li{
 }
 .homesocial{
   background:rgba(255,255,255, 0.6);
-
   text-align: center;
-  width: 20%;
+  width: 50%;
   margin: 0 auto;
 }
 .homesocial img{
@@ -152,6 +154,7 @@ nav li{
   font-size: 1vw;
   font-style: italic;
   text-align: center;
+  color: red;
 }
 #shine-shop{
   width: 15vw;
