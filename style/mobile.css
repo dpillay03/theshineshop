@@ -52,7 +52,7 @@
     height: 100vh;
     border-bottom: 3px solid red;
     border-style: groove;
-    background-image: url("/img/interior.jpg");
+    background-image: url("img/interior.jpg");
     background-repeat: no-repeat;
   }
   #home-txt{
