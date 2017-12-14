@@ -86,6 +86,10 @@
     width: 100%;
     margin: 0 auto;
   }
+  .wallpaper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/img/black-diamond-plate.jpg");
+    background-size: cover;:
+  }
   .about-content{
     width: 90%;
     display: block;
