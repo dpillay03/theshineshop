@@ -342,7 +342,7 @@ footer{
   text-align: center;
 }
 .socialdiv img{
-  margin-left: 4vw;
+  margin: 2vw;
 }
 #social-email img{
   height: 7vh;
@@ -362,5 +362,4 @@ footer{
   text-align: center;
   color: red;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 0;
 }
