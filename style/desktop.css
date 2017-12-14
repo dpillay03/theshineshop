@@ -114,9 +114,9 @@ display: none;
   padding: .8vh 2.6vw;
 }
 .homesocial{
-  background:rgba(255,255,255, 0.6);
+  background:rgba(255,255,255, 0.5);
   text-align: center;
-  width: 40%;
+  width: 27%;
   margin: 0 auto;
 }
 .homesocial img{
@@ -319,7 +319,7 @@ span{
 .price{
   color: red;
   font-family: 'Orbitron', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   background:rgba(255,255,255, 1);
   width: 100%;
 }
