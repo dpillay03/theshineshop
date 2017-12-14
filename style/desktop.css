@@ -54,7 +54,7 @@ display: none;
   width: 100%;
   height: 80vh;
   overflow: hidden;
-  background-image: url("img/interior.jpg");
+  background-image: url("../img/interior.jpg");
   background-size: cover;
   border-bottom: 3px solid red;
   border-style: groove;
@@ -124,7 +124,7 @@ display: none;
   margin: 1.5vw;
 }
 .wallpaper{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("img/black-diamond-plate.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/black-diamond-plate.jpg");
   background-size: cover;
 }
 
@@ -137,7 +137,7 @@ display: none;
   border-style: inset;
   margin-bottom: 3vh;
   margin-top: 3vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/metal-bg.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/metal-bg.jpg");
   background-size: cover;
   text-align: center;
 }
